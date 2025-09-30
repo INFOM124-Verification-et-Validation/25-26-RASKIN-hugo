@@ -1,10 +1,10 @@
 package nl.tudelft.jpacman.board;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
-import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 
 /**
@@ -25,7 +25,7 @@ class BoardTest {
      */
     @Test
     void verifyWidth() {
-        // TODO
+        Assertions.assertEquals(2, board.getWidth());
     }
 
     /**
@@ -33,7 +33,7 @@ class BoardTest {
      */
     @Test
     void verifyHeight() {
-        // TODO
+        Assertions.assertEquals(3, board.getHeight());
     }
 
     /**
@@ -48,6 +48,6 @@ class BoardTest {
         "0, 1"
     })
     void testSquareAt(int x, int y) {
-        // TODO
+        Assertions.assertNotNull(board.squareAt(x,y));
     }
 }
