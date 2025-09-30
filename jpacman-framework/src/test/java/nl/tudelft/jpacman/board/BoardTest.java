@@ -28,7 +28,7 @@ class BoardTest {
      */
     @Test
     void verifyWidth() {
-        Assertions.assertEquals(2, board.getWidth());
+        Assertions.assertEquals(MAX_WIDTH, board.getWidth());
     }
 
     /**
@@ -36,7 +36,7 @@ class BoardTest {
      */
     @Test
     void verifyHeight() {
-        Assertions.assertEquals(3, board.getHeight());
+        Assertions.assertEquals(MAX_HEIGHT, board.getHeight());
     }
 
     /**
