@@ -1,9 +1,9 @@
 # Specification-based Testing
 
 ## 1. Goal, inputs and outputs
-- Goal:
-- Input domain:
-- Output domain:
+- Goal: **Trouver la nouvelle position de Clyde dans le niveau**
+- Input domain: **This -> clyde (position actuelle), PacMan (position du joueur)**
+- Output domain: **direction ou null (optionnel)** aka la nouvelle position de clyde
 
 ## 2. Explore the program (if needed)
 
